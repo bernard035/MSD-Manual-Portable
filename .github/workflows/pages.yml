@@ -36,7 +36,7 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
       - name: Build
-        run: python MSD-Manual-Portable.py -l zh -v professional -s
+        run: python MSD-Manual-Portable.py -l en -v professional -s
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
